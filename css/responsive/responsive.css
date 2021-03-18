@@ -1,0 +1,21 @@
+@media only screen and (min-width: 992px) and  (max-width: 1200px){
+}
+@media only screen and (min-width: 768px) and  (max-width: 991px){}
+@media only screen and (max-width: 1200px){
+	.menu__hide{
+  		display: block;
+	}
+	.header__banner{
+		display: none;
+	}
+	.module-ct .nav-pills{
+		display: block;
+	}
+	.navbar-light.bg-light{
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px){}
+@media only screen and (max-width: 580px){}
+@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 414px){}
