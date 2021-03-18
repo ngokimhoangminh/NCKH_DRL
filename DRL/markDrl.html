@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>drl.ute.udn.vn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="image/favicon.png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"></li> 
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css"></li>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome/css/font-awesome.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="stylesheet" type="text/css" href="./css/responsive/responsive.css"></li>
+    
+</head>
+<body>
+<!-- page-content" -->
+<div class="page-content">
+    <div class="container">
+        <header>
+            <div class="menu__hide">
+                <div class="col-md-12 row p-0 m-0">
+                <!-- OFF CANVAS TOGGLE -->
+
+                    <button id="button-event" class="btn btn-default off-canvas-toggle" type="button" data-pos="left" data-nav="#t3-off-canvas" data-effect="off-canvas-effect-4" onclick="show()">
+                    <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- // OFF CANVAS TOGGLE -->
+                    <!-- LOGO -->
+                    <div class="logo">
+                        <div class="logo-image logo-control">
+                            <a href="#" title="Trường ĐH Sư phạm Kỹ thuật">
+                               
+                                <img class="logo-img-sm" rel="nofollow" src="image/header-ute.png" alt="Trường Đại học Sư phạm Kỹ thuật">
+                               
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <!-- //LOGO -->
+                </div>
+            </div>
+            <div class="module-inner">
+                <div class="module-ct">
+                    <ul id="hambuger_menu" class="nav  nav-pills nav-stacked ">
+                        <li class="current active"><a class="nav-icon nav-magazine" href="/">
+                            UTE</a></li>
+                        <li>
+                            <a id="index.html" class="nav-icon fa fa-question" href="index.html" target="_blank">Trang chủ</a>
+                        </li>
+                        <li><a href="" class="nav-icon fa fa-book">Xem điểm cả lớp</a>
+                        </li>
+                        <li><a href="" class="nav-icon fa fa-book">Đăng nhập</a>
+                        </li>
+                        <li><a href="change_password.html"><i class="fas fa-key mr-2"></i>Thay đổi mật khẩu</a></li>
+                        <li><a href="#"><i class="fas fa-user mr-2"></i>Thông tin cá nhân</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle mr-2"></i>Thông tin chấm điểm rèn luyện</a></li>
+                        <li><a href="#"><i class="fas fa-star mr-2"></i>Quản lý điểm cá nhân</a></li>
+                        <li><a href="#"><i class="fas fa-sign-out-alt mr-2"></i>Đăng xuất</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__banner">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="#" alt="Trường đại học sư phạm kỹ thuật"><img class="d-block w-100" src="image/banner_1.jpg" alt="First slide"></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="#" alt="Trường đại học sư phạm kỹ thuật"><img class="d-block w-100" src="image/banner_1.jpg" alt="Second slide"></a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="#" alt="Trường đại học sư phạm kỹ thuật"><img class="d-block w-100" src="image/banner_1.jpg" alt="Third slide"></a>
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+                <div class="navbar-collapse" id="navbarNavDropdown">
+                    <div class="menu">
+                        <ul class="parent">
+                            <li><a href="index.html" target="_blank">Trang Chủ</a></li>
+                            <li><a href="markDrl.html">Tự đánh giá rèn luyện</a></li>
+                            <li><a href="#">Xem điểm cả lớp</a></li>
+                            <li><a href="login.html" target="_blank"> Quy định</a>
+                                <ul class="sub-menu">
+                                    <li><a href=""><i class="fas fa-key mr-2"></i>Quy định cho hệ Cao Đẳng</a></li>
+                                    <li><a href="#"><i class="fas fa-user mr-2"></i>Quy định cho hệ Đại Học</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="login.html" target="_blank"> Hướng dẫn</a>
+                                <ul class="sub-menu">
+                                    <li><a href=""><i class="fas fa-key mr-2"></i>Hướng dẫn cho hệ Cao Đẳng</a></li>
+                                    <li><a href="#"><i class="fas fa-user mr-2"></i>Hướng dẫn cho hệ Đại Học</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="notification.html" target="_blank"> Thông báo</a>
+                                
+                            </li>
+                            <li><a href="login.html" target="_blank"> Đăng nhập</a>
+                                <ul class="sub-menu">
+                                    <li><a href="changePassword.html" target="_blank"><i class="fas fa-key mr-2"></i>Thay đổi mật khẩu</a></li>
+                                    <li><a href="updatePersonalInfor.html"><i class="fas fa-user mr-2"></i>Thông tin cá nhân</a></li>
+                                    <li><a href="#"><i class="fas fa-star mr-2"></i>Quản lý điểm cá nhân</a></li>
+                                    <li><a href="#"><i class="fas fa-sign-out-alt mr-2"></i>Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            
+            <div id="crumbs">
+                        <ul>
+                            <li><a href="index.html" class="breadcrumb">Trang chủ</a></li>
+                            <li><a href="#" class="breadcrumb">Chấm điểm rèn luyện</a></li>
+
+                        </ul>
+            </div>
+           <div class="page-body bs-danger">
+            <div class="row">
+                <div class="content col-md-12 mt-2">
+                    <div class="page-body_title">
+                       
+                        <table class="table table-bordered border-primary">
+                            <thead class="text-center fw-bold">
+                                <tr>
+                                    <th scope="col">STT</th>
+                                    <th scope="col">Nội dung đánh giá</th>
+                                    <th scope="col">Điểm tối đa</th>
+                                    <th scope="col">Sinh viên tự đánh giá</th>
+                                    <th scope="col">Lớp đánh giá</th>
+                                    <th scope="col">Giáo viên đánh giá</th>
+                                    <th scope="col">Minh chứng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-danger fw-bold">
+                                    <th scope="row">I</th>
+                                    <td>ĐÁNH GIÁ VỀ Ý THỨC THAM GIA HỌC TẬP (20 ĐIỂM)</td>
+                                    <td>20</td>
+                                    <td>18</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Có đi học chuyên cần, đúng giờ, nghiêm túc trong giờ học; đủ điều kiện dự thi
+                                        tất cả các học phần (4 điểm)</td>
+                                    <td> <input type="number" aria-label="Last name" class="form-control" min="0"
+                                            max="100"></td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>18</td>
+                                    <td>
+                                        <form enctype="multipart/form-data" method="POST">
+                                            <input type="file" name="myfile" />
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Có ý thức tham gia các câu lạc bộ học thuật, các hoạt động học thuật, hoạt động
+                                        ngoại khoá (2 điểm) <br>
+                                        Có đăng ký, thực hiện, báo cáo đề tài NCKH đúng tiến độ hoặc có đăng ký,
+                                        tham dự kỳ thi sinh viên giỏi các cấp (2 điểm)
+                                    </td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Không vi phạm quy chế thi và kiểm tra (6 điểm)</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Được tập thể lớp công nhận có tinh thần vượt khó, phấn đấu vươn lên trong học
+                                        tập (2 điểm)</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>ĐTBCHK từ 3,2 đến 4,0 (4 điểm) <br>
+                                        ĐTBCHK từ 2,0 đến 3,19 (2 điểm) <br>
+                                        ĐTBCHK dưới 2,0 (0 điểm)</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr class="text-danger fw-bold">
+                                    <th scope="row">II</th>
+                                    <td>ĐÁNH GIÁ VỀ Ý THỨC CHẤP HÀNH NỘI QUY, QUY CHẾ TRONG NHÀ TRƯỜNG (25 điểm)</td>
+                                    <td>25</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>18</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Có ý thức chấp hành các văn bản chỉ đạo của ngành, cấp trên và ĐHĐN
+                                        được thực hiện trong nhà trường (6 điểm)</td>
+                                    <td>6</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Có ý thức tham gia đầy đủ, đạt yêu cầu các cuộc vận động, sinh hoạt chính trị
+                                        theo chủ trương, của cấp trên, ĐHĐN và nhà trường (4 điểm)</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <td>Có ý thức chấp hành nội quy, quy chế và các quy định của nhà trường (10 điểm)
+                                        <br>
+                                        Đóng học phí và các khoản thu khác đầy đủ, đúng hạn (5 điểm)</td>
+                                    <td>15</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr class="text-danger fw-bold">
+                                    <th scope="row">III</th>
+                                    <td>ĐÁNH GIÁ VỀ Ý THỨC THAM GIA CÁC HOẠT ĐỘNG CHÍNH TRỊ- XÃ HỘI, VHVN, TDTT,
+                                        PHÒNG CHỐNG TÔI PHẠM VÀ CÁC TỆ NẠN XÃ HỘI (20 điểm)</td>
+                                    <td>20</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td>Tham gia đầy đủ, đạt yêu cầu “Tuần sinh hoạt công dân sinh viên” đầu khóa,
+                                        năm học và cuối khóa (10 điểm) <br>
+                                        Có ý thức tham gia đầy đủ, nghiêm túc hoạt động rèn luyện về chính trị, xã hội,
+                                        văn hóa, văn nghệ, thể thao do nhà trường và ĐHĐN tổ chức, điều động (6 điểm)
+                                    </td>
+                                    <td>16</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>
+                                    <td>Có ý thức tham gia các hoạt động công ích, tình nguyện, công tác xã hội trong
+                                        nhà trường (2 điểm)</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td>Có ý thức tham gia tuyên truyền, phòng chống tội phạm và các tệ nạn xã hội (2
+                                        điểm)</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr class="text-danger fw-bold">
+                                    <th scope="row">IV</th>
+                                    <td>ĐÁNH GIÁ VỀ Ý THỨC CÔNG DÂN TRONG QUAN HỆ VỚI CỘNG ĐỒNG (25 điểm)</td>
+                                    <td>25</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td>Có ý thức chấp hành, tham gia tuyên truyền các chủ trương của Đảng, chính
+                                        sách, pháp luật của Nhà nước (4 điểm) <br>
+                                        Có tham gia bảo hiểm y tế (bắt buộc) theo Luật bảo hiểm y tế (10 điểm) <br>
+                                        Có ý thức chấp hành, tham gia tuyên truyền các quy định về bảo đảm an toàn
+                                        giao thông và “văn hóa giao thông”(5 điểm)</td>
+                                    <td>19</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td>Có ý thức tham gia các hoạt động xã hội có thành tích được ghi nhận, biểu
+                                        dương, khen thưởng (4 điểm)</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td>Có tinh thần chia sẻ, giúp đỡ người gặp khó khăn, hoạn nạn (2 điểm)</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr class="text-danger fw-bold">
+                                    <th scope="row">V</th>
+                                    <td>ĐÁNH GIÁ VỀ Ý THỨC VÀ KẾT QUẢ KHI THAM GIA CÔNG TÁC CÁN BỘ LỚP, CÁC
+                                        ĐOÀN THỂ, TỔ CHỨC TRONG NHÀ TRƯỜNG HOẶC SINH VIÊN ĐẠT ĐƯỢC THÀNH TÍCH
+                                        TRONG HỌC TẬP, RÈN LUYỆN (10 điểm)</td>
+                                    <td>10</td>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13</th>
+                                    <td>Có ý thức, uy tín và hoàn thành tốt nhiệm vụ quản lý lớp, các tổ chức Đảng,
+                                        Đoàn Thanh niên, Hội Sinh viên, tổ chức khác trong nhà trường (3 điểm)</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">14</th>
+                                    <td>Có kỹ năng tổ chức, quản lý lớp, các tổ chức Đảng, Đoàn Thanh niên, Hội Sinh
+                                        viên và các tổ chức khác trong nhà trường (2 điểm)</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">15</th>
+                                    <td>Hỗ trợ và tham gia tích cực vào các hoạt động chung của lớp, tập thể, khoa,
+                                        trường và Đại học Đà Nẵng (3 điểm)</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">16</th>
+                                    <td>Đạt thành tích trong học tập, rèn luyện (được tặng bằng khen, giấy khen, chứng
+                                        nhận, thư khen của các cấp) (2 điểm)</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><form enctype="multipart/form-data" method="POST">
+                                        <input type="file" name="myfile" />
+                                    </form></td>
+                                </tr>
+                                <tr class="text-danger fw-bold">
+                                    <th colspan="2">Điểm tổng</th>
+                                    <td>100</td>
+                                    <td>90</td>
+                                    <td>89</td>
+                                    <td>100</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+            
+            
+            <hr>
+        </main>
+        <footer>
+            <section class="footer-links">
+                <div class="col-md-12 col-lg-12">
+                    <div class="online">
+                        <h3 class="module-title online__title">
+                            <span>Danh sách thành viên đang truy cập (1
+                                đang truy cập)</span>
+                        </h3>
+                        <div class="online-content col-md-12 col-lg-12 row">
+                            
+                                <div class="user col-lg-4 col-md-4 row mt-2">
+                                
+                                    <div  class="user__img col-md-2 col-sm-2 col-xs-3" style="padding: 0">
+                                            <a href="#">
+                                            <img id="ctl00_Footer_rpLuotTruyCap_ctl00_imgAvatar" class="img-responsive" src="image/no_avatar.jpg" >
+                                        </a>
+                                    </div>
+                                    <div class="user__title col-md-10  col-sm-2 col-xs-3" >
+                                        Ngô Kim Hoàng Minh
+                                        <br>
+                                        1811505310131
+                                        <br>
+                                        <i class="fas fa-clock"></i>
+                                        Cách đây 28 phút
+                                    </div>
+                                
+                                </div>
+                                <div class="user col-lg-4 col-md-4 row mt-2">
+                                
+                                    <div  class="user__img col-md-2 col-sm-2 col-xs-3" style="padding: 0">
+                                            <a href="#">
+                                            <img id="ctl00_Footer_rpLuotTruyCap_ctl00_imgAvatar" class="img-responsive" src="image/no_avatar.jpg" >
+                                        </a>
+                                    </div>
+                                    <div class="user__title col-md-10  col-sm-2 col-xs-3" >
+                                        Ngô Kim Hoàng Minh
+                                        <br>
+                                        1811505310131
+                                        <br>
+                                        <i class="fas fa-clock"></i>
+                                        Cách đây 28 phút
+                                    </div>
+                                
+                                </div>
+                                <div class="user col-lg-4 col-md-4 row mt-2">
+                                
+                                    <div  class="user__img col-md-2 col-sm-2 col-xs-3" style="padding: 0">
+                                            <a href="#">
+                                            <img id="ctl00_Footer_rpLuotTruyCap_ctl00_imgAvatar" class="img-responsive" src="image/no_avatar.jpg" >
+                                        </a>
+                                    </div>
+                                    <div class="user__title col-md-10  col-sm-2 col-xs-3" >
+                                        Ngô Kim Hoàng Minh
+                                        <br>
+                                        1811505310131
+                                        <br>
+                                        <i class="fas fa-clock"></i>
+                                        Cách đây 28 phút
+                                    </div>
+                                
+                                </div>
+                                <div class="user col-lg-4 col-md-4 row mt-2">
+                                
+                                    <div  class="user__img col-md-2 col-sm-2 col-xs-3" style="padding: 0">
+                                            <a href="#">
+                                            <img id="ctl00_Footer_rpLuotTruyCap_ctl00_imgAvatar" class="img-responsive" src="image/no_avatar.jpg" >
+                                        </a>
+                                    </div>
+                                    <div class="user__title col-md-10  col-sm-2 col-xs-3" >
+                                        Ngô Kim Hoàng Minh
+                                        <br>
+                                        1811505310131
+                                        <br>
+                                        <i class="fas fa-clock"></i>
+                                        Cách đây 28 phút
+                                    </div>
+                                
+                                </div>
+                                <div class="user col-lg-4 col-md-4 row mt-2">
+                                
+                                    <div  class="user__img col-md-2 col-sm-2 col-xs-3" style="padding: 0">
+                                            <a href="#">
+                                            <img id="ctl00_Footer_rpLuotTruyCap_ctl00_imgAvatar" class="img-responsive" src="image/no_avatar.jpg" >
+                                        </a>
+                                    </div>
+                                    <div class="user__title col-md-10  col-sm-2 col-xs-3" >
+                                        Ngô Kim Hoàng Minh
+                                        <br>
+                                        1811505310131
+                                        <br>
+                                        <i class="fas fa-clock"></i>
+                                        Cách đây 28 phút
+                                    </div>
+                                
+                                </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>          
+            <section class="footer-copyright col-lg-12">
+                <div class="row">
+                    <div class="col-md-8 copyright ">
+
+                        <small>
+                            Hệ thống Quản lý chấm điểm rèn luyện; Copyright © 2021.
+                        </small>
+                        <small>
+                            Địa chỉ: số 48 Cao Thắng, TP. Đà Nẵng - Điện thoại: (0236) 3530590 - Email: <a href="mailto:utemediaonline@gmail.com">utemediaonline@gmail.com</a>
+                        </small>
+                    </div>
+                    <div class="col-md-4 poweredby">
+                        <a href="https://www.facebook.com/UTE.MEDIAONLINE/" title="Thiết kế Website" target="_blank">Thiết kế bởi <strong style="color:orange">Ban Truyền thông Đoàn trường</strong> <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </footer>
+    </div>
+        
+    </div>
+</div>
+<!-- page-content" -->
+
+
+
+<script src="./js/jquery.slimscroll.js"></script>
+<script src="./js/jquery.nicescroll.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+
+<script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="./js/wow.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script type="text/javascript" src="./js/slick.min.js"></script>
+<script type="text/javascript" src="./js/custom.js"></script>
+</body>
+</html>
