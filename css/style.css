@@ -846,6 +846,15 @@ ul.sub-menu li:hover{
         padding: 3px 10px;
         font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
       }
+      .appraise .appraise--time
+      {
+          outline: none;
+          height: 29px;
+      }
+
+      .student-info p{
+        margin:2px 8px; 
+      }
     /*Trang list_class.html*/
 
 

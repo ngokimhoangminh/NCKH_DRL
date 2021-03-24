@@ -19,10 +19,12 @@
 	
 </head>
 <body>
-<!-- page-content" -->
+<!-- sidebar-wrapper  -->
 <div class="page-content">
-	<div class="container">
-		<header>
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-center">
+			<div class="col-md-11">
+				<header>
 			<div class="menu__hide">
 	            <div class="col-md-12 row p-0 m-0">
 	            <!-- OFF CANVAS TOGGLE -->
@@ -92,9 +94,9 @@
 					<div class="menu">
 						<ul class="parent">
 							<li><a href="#">Trang Chủ</a></li>
-							<li><a href="" target="_blank">Danh sách lớp</a>
+							<li><a href="login.html" target="_blank">Danh sách lớp</a>
 								<ul class="sub-menu">
-				                    <li><a href="listClass.html" target="_blank"><i class="fas fa-user mr-2"></i>18T1</a></li>
+				                    <li><a href="list_class.html" target="_blank"><i class="fas fa-key mr-2"></i>18T1</a></li>
 				                    <li><a href="#"><i class="fas fa-user mr-2"></i>18T2</a></li>
 				                    
                 				</ul>
@@ -132,29 +134,78 @@
 		<main>
 			
          	<div id="crumbs">
-						<ul>
-							<li><a href="index.html" class="breadcrumb">Trang chủ</a></li>
-							<li><a href="#" class="breadcrumb">Giáo viên</a></li>
+				<ul>
+					<li><a href="index.html" class="breadcrumb">Trang chủ</a></li>
+					<li><a href="#" class="breadcrumb">18T1</a></li>
 
-						</ul>
+				</ul>
 			</div>
-           
-			<div class="form-group">
-		  		<div class="news mt-2 ">
-		  			<ul>                                  
-                        <li><a href="#"><b><span style="color:blue">
-                            Cập nhật lại thông tin cá nhân</span></b></a> </li>
-                    
-                        <li><a href="#"><b><span style="color:orange">
-                            Quy định chấm điểm rèn luyện Bậc Đại Học</span></b></a> </li>
-                    	<li><a href="#"><b><span style="color:orange">
-                            Quy định chấm điểm rèn luyện Bậc Cao Đẳng</span></b></a> </li>
-                        <li><a href="#"><b><span style="color:#fcb1ae">
-                            Danh sách sinh viên xử lý học vụ</span></b></a> </li>
-                    
-                    </ul>
-		  		</div>
-		  	</div>	
+           	
+			<div class="list mt-3">
+				<div class="appraise">
+					<label class="appraise--title">Đợt đánh giá: </label>
+					<select class="appraise--time">
+						<option>Đợt đánh giá HK 220</option>
+						<option>Đợt đánh giá HK 120</option>
+						<option>Đợt đánh giá HK 119</option>
+						<option>Đợt đánh giá HK 219</option>
+					</select>
+				</div>
+				<table class="table table-bordered table-hover mt-2">
+					<thead>
+					    <tr class="list list-group-item-heading">
+					      <th scope="col">STT</th>
+					      <th scope="col">Mã Sinh Viên</th>
+					      <th scope="col">Họ Tên</th>
+					      <th scope="col">Tổng Điểm</th>
+					      <th scope="col">Xếp Loại</th>
+					      <th scope="col">Hành Động</th>
+					    </tr>
+					</thead>
+				  	<tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>1811505310131</td>
+					      <td>Ngô Kim Hoàng Minh</td>
+					      <td>85</td>
+					      <td>Tốt</td>
+					      <td><a href="detailPoint.html"><i class="fas fa-eye mr-1"></i>Xem chi tiết</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>1811505310131</td>
+					      <td>Ngô Kim Hoàng Minh</td>
+					      <td>85</td>
+					      <td>Tốt</td>
+					      <td><a href="#"><i class="fas fa-eye mr-1"></i>Xem chi tiết</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>1811505310131</td>
+					      <td>Ngô Kim Hoàng Minh</td>
+					      <td>85</td>
+					      <td>Tốt</td>
+					      <td><a href="#"><i class="fas fa-eye mr-1"></i>Xem chi tiết</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">4</th>
+					      <td>1811505310131</td>
+					      <td>Ngô Kim Hoàng Minh</td>
+					      <td>85</td>
+					      <td>Tốt</td>
+					      <td><a href="#"><i class="fas fa-eye mr-1"></i>Xem chi tiết</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">5</th>
+					      <td>1811505310131</td>
+					      <td>Ngô Kim Hoàng Minh</td>
+					      <td>85</td>
+					      <td>Tốt</td>
+					      <td><a href="#"><i class="fas fa-eye mr-1"></i>Xem chi tiết</a></td>
+					    </tr>
+				  </tbody>
+				</table>
+			</div>
 		  	
 		  	<hr>
 	  	</main>
@@ -276,12 +327,14 @@
 		    
 		    
 		</footer>
-	</div>
+			</div>
+		</div>
 		
 	</div>
 </div>
 <!-- page-content" -->
-
+</div>
+<!-- page-wrapper -->
 
 
 <script src="./js/jquery.slimscroll.js"></script>
